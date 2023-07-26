@@ -37,7 +37,7 @@ class _Product_ListState extends State<Product_List> {
         title: Text('Product List'),
         centerTitle: true,
         actions: [Padding(padding: EdgeInsets.only(right: 12),
-        child: IconButton(icon: Icon(Icons.shopping_cart),
+        child: IconButton(icon: Icon(Icons.shopping_cart,size: 30,),
           onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>Result_Cart()));
           },

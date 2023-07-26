@@ -39,14 +39,6 @@ class _Result_CartState extends State<Result_Cart> {
       appBar: AppBar(
         title: Text('Product List'),
         centerTitle: true,
-        actions: [Padding(padding: EdgeInsets.only(right: 12),
-          child: IconButton(icon: Icon(Icons.shopping_cart),
-            onPressed: (){
-
-            },
-          ),
-        )
-        ],
       ),
       body: ListView.builder(
           shrinkWrap: true,
